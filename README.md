@@ -17,3 +17,14 @@ A simple API to get results of Game of Thrones battles
 * /search?query - can search with custom parameters:
     * "/search?king=Robb Stark", return list of battles were 'attacker_king' or 'defender_king' was 'Robb Stark
     * "/search?king=Robb Stark&location=Riverrun&type=siege", can also use multiple queries
+    * available queries:
+        * king
+        * location
+        * type
+        * year
+        * battle_number
+        * attacker
+        * defender
+        * attacker_outcome
+        * major_death
+        * region
